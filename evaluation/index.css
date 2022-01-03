@@ -1,0 +1,24 @@
+#navBar{
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    color:white;
+    border: 2px solid black;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+
+
+}
+
+
+
+#navBar>div{
+    /* vertical-align: middle; */
+    font-size: 20px;
+    margin: 0px 15px;
+}
+
+#navBar>div:nth-child(1){
+    flex-grow: 1;
+}
